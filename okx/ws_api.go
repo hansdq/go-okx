@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/ZYKJShadow/go-okx/common/utils"
+	"github.com/handsq/go-okx/common/utils"
 	"github.com/hansdq/recws"
 	"github.com/tidwall/gjson"
 	"github.com/zeromicro/go-zero/core/logx"
