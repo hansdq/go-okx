@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/ZYKJShadow/go-okx/common/utils"
-	"github.com/ZYKJShadow/recws"
+	"github.com/hansdq/recws"
 	"github.com/tidwall/gjson"
 	"github.com/zeromicro/go-zero/core/logx"
 	"net/http"

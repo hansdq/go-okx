@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/ZYKJShadow/go-okx/common/utils"
+	"github.com/hansdq/go-okx/common/utils"
 	"github.com/pkg/errors"
 	"io"
 	"math"

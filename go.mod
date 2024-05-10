@@ -1,9 +1,9 @@
-module github.com/ZYKJShadow/go-okx
+module github.com/hansdq/go-okx
 
 go 1.20
 
 require (
-	github.com/ZYKJShadow/recws v0.0.0-20220805152939-54fcd207f369
+
 	github.com/pkg/errors v0.9.1
 	github.com/tidwall/gjson v1.14.4
 	github.com/zeromicro/go-zero v1.6.3

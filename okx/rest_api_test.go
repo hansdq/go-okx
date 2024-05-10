@@ -2,7 +2,7 @@ package okx
 
 import (
 	"fmt"
-	"github.com/ZYKJShadow/go-okx/common/utils"
+	"github.com/hansdq/go-okx/common/utils"
 	"math"
 	"strconv"
 	"testing"
