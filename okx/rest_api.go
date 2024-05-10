@@ -547,12 +547,27 @@ func (c *RestConfig) Ticker(instId string) (*Ticker, error) {
 	}
 
 	var tickers []*Ticker
-	_, err := c.request(nil, &tickers, http.MethodGet, fmt.Sprintf("%s?%s", TickersUrl, data.Encode()), "", true)
+	_, err := c.request(nil, &tickers, http.MethodGet, fmt.Sprintf("%s?%s", TickerUrl, data.Encode()), "", true)
 	if err != nil {
 		return nil, err
 	}
 
 	return tickers[0], nil
+}
+
+// Ticker 产品当前行情数据
+func (c *RestConfig) Tickers(instType string) ([]*Ticker, error) {
+	data := url.Values{
+		"instType": {instType},
+	}
+
+	var tickers []*Ticker
+	_, err := c.request(nil, &tickers, http.MethodGet, fmt.Sprintf("%s?%s", TickersUrl, data.Encode()), "", true)
+	if err != nil {
+		return nil, err
+	}
+
+	return tickers, nil
 }
 
 // MaxSize

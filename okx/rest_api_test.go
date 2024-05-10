@@ -229,7 +229,17 @@ func TestTicker(t *testing.T) {
 
 	fmt.Println(ticker)
 }
+func TestTickers(t *testing.T) {
+	ticker, err := apiConfig.Tickers("SPOT")
+	if err != nil {
+		t.Error(err)
+		return
+	}
+	for _, v := range ticker {
+		fmt.Println(v.InstId)
+	}
 
+}
 func TestCandles(t *testing.T) {
 	candles, err := apiConfig.Candles("BTC-USDT-SWAP", "15m", "", "", "300")
 	if err != nil {

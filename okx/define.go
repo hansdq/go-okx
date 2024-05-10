@@ -55,7 +55,9 @@ const (
 
 // market url
 const (
-	TickersUrl    = "/api/v5/market/ticker"
+	TickerUrl  = "/api/v5/market/ticker"
+	TickersUrl = "/api/v5/market/tickers"
+
 	CandlesUrl    = "/api/v5/market/candles"
 	HisCandlesUrl = "/api/v5/market/history-candles"
 	BooksUrl      = "/api/v5/market/books"
