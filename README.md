@@ -15,7 +15,7 @@ Placing Advanced Orders: The SDK supports advanced order types like OCO (One Can
 
 ## Installation
 ```go
-go get -u github.com/ZYKJShadow/go-okx
+go get -u github.com/hansdq/go-okx
 ```
 ## Usage
 Before using the SDK, you need to initialize the API configuration with your OKX API credentials:

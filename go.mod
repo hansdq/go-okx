@@ -3,7 +3,7 @@ module github.com/hansdq/go-okx
 go 1.20
 
 require (
-
+	github.com/hansdq/recws v0.0.0-20240510050643-b32da768073f
 	github.com/pkg/errors v0.9.1
 	github.com/tidwall/gjson v1.14.4
 	github.com/zeromicro/go-zero v1.6.3

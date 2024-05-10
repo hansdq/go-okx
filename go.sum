@@ -1,5 +1,3 @@
-github.com/ZYKJShadow/recws v0.0.0-20220805152939-54fcd207f369 h1:H5z2WrBGHzx2L2RPDyBv1BEvc3ZZv77SweSLxxeTP5g=
-github.com/ZYKJShadow/recws v0.0.0-20220805152939-54fcd207f369/go.mod h1:Y3oYetsKfAp+RC5zFcWZJwFoiUx1yabixJkKP5YAiSo=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/fatih/color v1.16.0 h1:zmkK9Ngbjj+K0yRhTVONQh1p/HknKYSlNT+vZCzyokM=
 github.com/fatih/color v1.16.0/go.mod h1:fL2Sau1YI5c0pdGEVCbKQbLXB6edEj1ZgiY4NijnWvE=
@@ -8,6 +6,8 @@ github.com/go-logr/stdr v1.2.2 h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/gorilla/websocket v1.4.2 h1:+/TMaTYc4QFitKJxsQ7Yye35DkWvkdLcvGKqM+x0Ufc=
 github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
+github.com/hansdq/recws v0.0.0-20240510050643-b32da768073f h1:OWZBWA7r5ORLv/ru4lnQPiRl0zDaj5Er7hGFGlcdMxU=
+github.com/hansdq/recws v0.0.0-20240510050643-b32da768073f/go.mod h1:yhzHhzzSM2Jzc6yihPZ2K35zsLG7BdecCnOaJaC4+Go=
 github.com/jpillora/backoff v1.0.0 h1:uvFg412JmmHBHw7iwprIxkPMI+sGQ4kzOWsMeHnm2EA=
 github.com/jpillora/backoff v1.0.0/go.mod h1:J/6gKK9jxlEcS3zixgDgUAsiuZ7yrSoa/FX5e0EB2j4=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=
